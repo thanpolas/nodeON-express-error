@@ -25,6 +25,9 @@
   "scripts": {
     "test": "./node_modules/.bin/grunt jshint:lib && ./node_modules/.bin/mocha -b test/spec -u bdd  -R spec"
   },
+  "peerDependencies": {
+    "logg": "~0.3.0"
+  },
   "dependencies": {
   },
   "devDependencies": {
