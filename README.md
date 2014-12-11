@@ -28,6 +28,8 @@ app.use(nodeonExpressError);
 
 ## Release History
 
+- **v0.0.4**, *11 Dec 2014*
+    - Fix bug in casting unknown errors.
 - **v0.0.3**, *11 Dec 2014*
     - Now also logs the full requested url.
 - **v0.0.2**, *11 Dec 2014*
