@@ -28,6 +28,8 @@ app.use(nodeonExpressError);
 
 ## Release History
 
+- **v0.0.2**, *11 Dec 2014*
+    - Properly expose the handler and write test cases.
 - **v0.0.1**, *11 Dec 2014*
     - Big Bang
 
