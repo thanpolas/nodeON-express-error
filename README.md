@@ -1,67 +1,36 @@
-# __proto__
+# nodeON-express-error
 
-> Clone, edit, hack. An opinionated boilerplate for Node Libraries.
+> The nodeON Express Error Handler
 
-[![Build Status](https://secure.travis-ci.org/thanpolas/__proto__.png?branch=master)](http://travis-ci.org/thanpolas/__proto__)
-
-To use, simply Clone, Enter directory, delete `.git` folder and start over:
-
-```shell
-git clone git@github.com:thanpolas/__proto__.git
-cd __proto__
-rm -rf .git
-git init
-git add .
-git commit "Boot!"
-```
-
-Boilerplate OSS follows...
+[![Build Status](https://secure.travis-ci.org/thanpolas/nodeON-express-error.png?branch=master)](http://travis-ci.org/thanpolas/nodeON-express-error)
 
 ## Install
 
 Install the module using NPM:
 
 ```
-npm install YADDAYADDA --save
+npm install nodeon-express-error --save
 ```
-## <a name='TOC'>Table of Contents</a>
 
-1. [Overview](#overview)
-1. [API](#api)
+## Documentation
 
-## Overview
-
-Lorem ipsum trololol.
-
-## API
-
-One more to go back without onez has together we know!
-
-**[[⬆]](#TOC)**
-
-### <a name='toApi'>Getting an API Safe verison</a>
-
-> ### errInstance.toApi()
->
-> *Returns* `Object` A sanitized object.
-
-Clones the error object and strips it of all the `Error` getters (like `stack`) and the following attributes:
-    
-    * `srcError`
+Just add as a plain express middleware, make sure to add it **LAST**.
 
 ```js
-var appErr = require('nodeon-error');
 
-var error = new appErr.Error();
+var nodeonExpressError = require('nodeon-express-error');
 
-console.log(error.toApi());
+/** ... your middleware ... */
+
+// Now add the nodeON Express Error Handler LAST
+app.use(nodeonExpressError);
 ```
 
 ## Release History
 
-- **v0.0.1**, *TBD*
+- **v0.0.1**, *11 Dec 2014*
     - Big Bang
 
 ## License
 
-Copyright (c) 2014 Thanasis Polychronakis. Licensed under the MIT license.
+Copyright ©2015 Thanasis Polychronakis. Licensed under the MIT license.
