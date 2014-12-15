@@ -26,6 +26,14 @@ var nodeonExpressError = require('nodeon-express-error');
 app.use(nodeonExpressError);
 ```
 
+### HTTP Code
+
+To propagate an HTTP Code response to the client use the property `httpCode`.
+
+### Works with NodeON Error
+
+This Error Handler is optimized to work with the [nodeON Error Package](https://github.com/thanpolas/nodeON-error), check it out it's worth 60".
+
 ## Release History
 
 - **v0.0.4**, *11 Dec 2014*
