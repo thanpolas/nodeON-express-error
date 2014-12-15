@@ -36,6 +36,8 @@ This Error Handler is optimized to work with the [nodeON Error Package](https://
 
 ## Release History
 
+- **v0.1.0**, *15 Dec 2014*
+    - Update HTTP Response Status Code property expectations, adjusting to nodeON Error 0.2.x series.
 - **v0.0.4**, *11 Dec 2014*
     - Fix bug in casting unknown errors.
 - **v0.0.3**, *11 Dec 2014*
