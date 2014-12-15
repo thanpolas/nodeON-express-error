@@ -29,7 +29,7 @@
     "logg": "~0.3.0"
   },
   "dependencies": {
-    "nodeon-error": "^0.1.2",
+    "nodeon-error": "^0.2.0",
     "nodeon-helpers": "^0.1.5"
   },
   "devDependencies": {
