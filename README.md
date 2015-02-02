@@ -36,6 +36,8 @@ This Error Handler is optimized to work with the [nodeON Error Package](https://
 
 ## Release History
 
+- **v0.1.2**, *02 Feb 2015*
+    - Enabled variable error views.
 - **v0.1.1**, *02 Feb 2015*
     - Fix bug in fallback error case.
 - **v0.1.0**, *15 Dec 2014*
