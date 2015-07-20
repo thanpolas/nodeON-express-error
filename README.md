@@ -36,6 +36,8 @@ This Error Handler is optimized to work with the [nodeON Error Package](https://
 
 ## Release History
 
+- **v0.1.3**, *20 Jul 2015*
+    - Honor the `noStack` attribute, if it is set to true no stack will be logged.
 - **v0.1.2**, *02 Feb 2015*
     - Enabled variable error views.
 - **v0.1.1**, *02 Feb 2015*
