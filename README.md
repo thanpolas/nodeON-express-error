@@ -36,6 +36,8 @@ This Error Handler is optimized to work with the [nodeON Error Package](https://
 
 ## Release History
 
+- **v1.0.0**, *04 May 2016*
+    - Updated all dependencies to latest, got rid of bcrypt dep via nodeon-helpers.
 - **v0.1.3**, *20 Jul 2015*
     - Honor the `noStack` attribute, if it is set to true no stack will be logged.
 - **v0.1.2**, *02 Feb 2015*
@@ -55,4 +57,4 @@ This Error Handler is optimized to work with the [nodeON Error Package](https://
 
 ## License
 
-Copyright ©2015 Thanasis Polychronakis. Licensed under the MIT license.
+Copyright Thanasis Polychronakis. Licensed under the MIT license.
